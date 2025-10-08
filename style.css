@@ -1,0 +1,47 @@
+/*css for all pages*/
+* {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    
+}
+
+a {
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.image-container {
+    margin-left: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 600px;
+
+}
+
+div {
+    margin: 20px;
+}
+
+
+
+/* index page*/
+
+
+
+/*description section*/
+.recipe-description {
+    display: flex;
+}
+.recipe-description p {
+    background-color: rgba(138, 137, 136, 0.096);
+    width: 1250px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+
+}
