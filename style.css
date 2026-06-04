@@ -1,47 +1,83 @@
 /*css for all pages*/
-* {
-    background-color: rgb(37, 37, 37);
-    color: white;
+body {
+    background-color: #F6F4F1;
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-    
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} == >it works for one body*/
+
+.recipes-links-container {
+    background-color: #E4DED2;
+    width: 400px;
+    padding: 8px 28px;
+    border-radius: 16px;
+    line-height: 1.5;
+    margin-top: 16px;
 }
 
 a {
-    color: dodgerblue;
+    color: brown;
     cursor: pointer;
     text-decoration: none;
+    font-weight: bolder;
+
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+
 }
 
 .image-container {
-    margin-left: 20px;
-    width: 600px;
-    margin: auto;
+    margin-top: 30px;
 }
 
 img {
-    width: 600px;
-
+    border-radius: 16px;
+    border: #E4DED2 solid 2px;
 }
 
-div {
-    margin: 20px;
+.home {
+    font-size: 24px;
 }
 
-
-
-/* index page*/
-
-
-
-/*description section*/
 .recipe-description {
-    display: flex;
+   background-color: brown;
+   margin-top: 30px;
+   padding:  16px 20px;
+   border-radius: 15px;
+   max-width: 500px;
 }
-.recipe-description p {
-    background-color: rgba(138, 137, 136, 0.096);
-    width: 1250px;
-    height: 60px;
-    text-align: center;
-    border-radius: 15px;
 
+.recipe-description p {
+    color: #F6F4F1;
+    text-align: center;
+    
+
+}
+h2{
+    background-color: #E4DED2;
+    color: brown;
+    padding: 16px 24px;
+    border-radius: 16px;
+}
+
+.ingredients ,.steps {
+    background-color: black;
+    color: #F6F4F1;
+    padding: 20px 64px;
+    border-radius: 16px;
+    max-width: 500px;
 }
